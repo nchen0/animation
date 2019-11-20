@@ -1558,7 +1558,7 @@ body.is-preload-2 #viewer .slide {
 @media screen and (max-width: 600px) {
   #header {
     padding: 0;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .charanimator {
     margin-bottom: 10px;
