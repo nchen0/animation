@@ -1478,3 +1478,95 @@ body.is-preload-2 #viewer .slide {
   width: 100%;
   height: 100%;
 }
+
+.profile {
+  width: 120px;
+  height: 120px;
+}
+
+#header {
+  /* display: flex; */
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.horizontal {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 5px;
+}
+
+.description {
+  text-align: center;
+}
+
+.charanimator {
+  font-size: 20px;
+  white-space: nowrap;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.name {
+  margin-bottom: 0;
+}
+
+.icons {
+  margin-bottom: 0;
+}
+
+.icon {
+  padding-right: 3px;
+}
+
+.fa-facebook {
+  color: #9cb2ce;
+}
+
+.fa-linkedin {
+  color: #294b7d;
+}
+
+.fa-envelope-o {
+  color: red;
+}
+
+.fa-instagram {
+  color: #f8bf80;
+}
+
+.accomplish-title {
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.541);
+  font-size: 18.5px;
+}
+
+.description p {
+  margin-bottom: 0;
+}
+
+.description p:first-child {
+  margin-top: 20px;
+}
+
+.dates {
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  #header {
+    padding: 0;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .mobile-container {
+    display: none;
+  }
+}
+
+.mobile-container {
+  margin-bottom: 25px;
+}
