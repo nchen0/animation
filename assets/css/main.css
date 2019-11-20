@@ -1564,7 +1564,17 @@ body.is-preload-2 #viewer .slide {
     margin-bottom: 10px;
   }
   .contact {
-    margin-bottom: 0;
+    margin-bottom: 8px;
+  }
+  .mobile-container {
+    margin-bottom: 10px;
+  }
+  .profile {
+    width: 110px;
+    height: 110px;
+  }
+  .icons {
+    margin-bottom: 10px;
   }
 }
 
@@ -1573,8 +1583,4 @@ body.is-preload-2 #viewer .slide {
   .mobile-container {
     display: none;
   }
-}
-
-.mobile-container {
-  margin-bottom: 25px;
 }
