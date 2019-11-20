@@ -1554,13 +1554,21 @@ body.is-preload-2 #viewer .slide {
   font-style: italic;
 }
 
+/* only on phone */
 @media screen and (max-width: 600px) {
   #header {
     padding: 0;
-    margin-top: 30px;
+    margin-top: 20px;
+  }
+  .charanimator {
+    margin-bottom: 10px;
+  }
+  .contact {
+    margin-bottom: 0;
   }
 }
 
+/* only on desktop */
 @media screen and (min-width: 650px) {
   .mobile-container {
     display: none;
